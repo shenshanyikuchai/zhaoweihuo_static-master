@@ -1,0 +1,325 @@
+fun({
+     "errno": 0,
+     "data":{
+     	"seller":[
+     	{
+     		"m_ID":"订单编号: &nbsp;920392739201",
+     		"m_create_time": "2017-08-09 12:00:00",
+     		"m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+     		"m_label_names":[
+     		{
+     			"m_detial":[
+     			 {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 },
+     			  {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			  }],
+     			 
+     			"m_customer_name":"小明",
+     			"m_tel":"13918293045",
+     			"m_money":"￥1000.00",
+     			"m_status":"待付款"	
+     		}],
+     			
+     	},
+     	{
+     		"m_ID":"订单编号: &nbsp;920392739201",
+     		"m_create_time": "2017-08-09 12:00:00",
+     		"m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+     		"m_label_names":[
+     		{
+     			"m_detial":[
+     			 {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 }],
+     			"m_customer_name":"小明",
+     			"m_tel":"13918293045",
+     			"m_money":"￥1000.00",
+     			"m_status":"待发货"	
+     		}],
+     			
+     	},
+     	{
+     		"m_ID":"订单编号: &nbsp;920392739201",
+     		"m_create_time": "2017-08-09 12:00:00",
+     		"m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+     		"m_label_names":[
+     		{
+     			"m_detial":[
+     			 {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 },
+     			  {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 }],
+     			 
+     			"m_customer_name":"小明",
+     			"m_tel":"13918293045",
+     			"m_money":"￥1000.00",
+     			"m_status":"已发货"	
+     		}],
+     			
+     	},
+     	{
+     		"m_ID":"订单编号: &nbsp;920392739201",
+     		"m_create_time": "2017-08-09 12:00:00",
+     		"m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+     		"m_label_names":[
+     		{
+     			"m_detial":[
+     			 {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 },
+     			  {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 }],
+     			 
+     			"m_customer_name":"小明",
+     			"m_tel":"13918293045",
+     			"m_money":"￥1000.00",
+     			"m_status":"已完成"	
+     		}],
+     			
+     	},
+     	{
+     		"m_ID":"订单编号: &nbsp;920392739201",
+     		"m_create_time": "2017-08-09 12:00:00",
+     		"m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+     		"m_label_names":[
+     		{
+     			"m_detial":[
+     			 {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 },
+     			  {
+     				"m_image_url":"img/B2B-267.png",
+     			    "m_name":"大哥牌虾味香酥花生豆",
+     			    "m_per":"230g/罐",
+     			    "m_standard":"规格:黄色",
+     			    "m_price":"￥12.00",
+     			    "m_number":10
+     			 }],
+     			 
+     			"m_customer_name":"小明",
+     			"m_tel":"13918293045",
+     			"m_money":"￥1000.00",
+     			"m_status":"已取消"	
+     		}],
+     			
+     	},
+          {
+               "m_ID":"订单编号: &nbsp;920392739201",
+               "m_create_time": "2017-08-09 12:00:00",
+               "m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+               "m_label_names":[
+               {
+                    "m_detial":[
+                     {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     }],
+                    "m_customer_name":"小明",
+                    "m_tel":"13918293045",
+                    "m_money":"￥1000.00",
+                    "m_status":"待发货"    
+               }],
+                    
+          },
+          {
+               "m_ID":"订单编号: &nbsp;920392739201",
+               "m_create_time": "2017-08-09 12:00:00",
+               "m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+               "m_label_names":[
+               {
+                    "m_detial":[
+                     {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     },
+                      {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     }],
+                     
+                    "m_customer_name":"小明",
+                    "m_tel":"13918293045",
+                    "m_money":"￥1000.00",
+                    "m_status":"已取消"    
+               }],
+                    
+          },
+          {
+               "m_ID":"订单编号: &nbsp;920392739201",
+               "m_create_time": "2017-08-09 12:00:00",
+               "m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+               "m_label_names":[
+               {
+                    "m_detial":[
+                     {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     },
+                      {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     }],
+                     
+                    "m_customer_name":"小明",
+                    "m_tel":"13918293045",
+                    "m_money":"￥1000.00",
+                    "m_status":"已取消"    
+               }],
+                    
+          },
+          {
+               "m_ID":"订单编号: &nbsp;920392739201",
+               "m_create_time": "2017-08-09 12:00:00",
+               "m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+               "m_label_names":[
+               {
+                    "m_detial":[
+                     {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     }],
+                    "m_customer_name":"小明",
+                    "m_tel":"13918293045",
+                    "m_money":"￥1000.00",
+                    "m_status":"待发货"    
+               }],
+                    
+          },
+          {
+               "m_ID":"订单编号: &nbsp;920392739201",
+               "m_create_time": "2017-08-09 12:00:00",
+               "m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+               "m_label_names":[
+               {
+                    "m_detial":[
+                     {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     }],
+                    "m_customer_name":"小明",
+                    "m_tel":"13918293045",
+                    "m_money":"￥1000.00",
+                    "m_status":"待发货"    
+               }],
+                    
+          },
+          {
+               "m_ID":"订单编号: &nbsp;920392739201",
+               "m_create_time": "2017-08-09 12:00:00",
+               "m_seller_name":"上海非凡贸易有限公司",
+               "m_seller_photo":"img/shangjia.png",
+               "m_label_names":[
+               {
+                    "m_detial":[
+                     {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     },
+                      {
+                         "m_image_url":"img/B2B-267.png",
+                        "m_name":"大哥牌虾味香酥花生豆",
+                        "m_per":"230g/罐",
+                        "m_standard":"规格:黄色",
+                        "m_price":"￥12.00",
+                        "m_number":10
+                     }],
+                     
+                    "m_customer_name":"小明",
+                    "m_tel":"13918293045",
+                    "m_money":"￥1000.00",
+                    "m_status":"已取消"    
+               }],
+                    
+          },
+
+     	]
+     }
+
+})

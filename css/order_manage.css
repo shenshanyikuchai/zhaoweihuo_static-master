@@ -1,0 +1,660 @@
+*{
+	padding: 0;
+	margin:0;
+}
+/*红色头部样式开始*/
+.lo_head {
+	width: 100%;
+	position: relative; 
+	background: #CB393D;
+}
+.lo_head .lo_main {
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	margin: 0 auto;
+	line-height: 70px;
+}
+.lo_head .lo_main ul li {
+	float: left;
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.lo_head .lo_main ul li.buyer {
+	margin-left: 120px;
+}
+.lo_head .lo_main ul li.supplier {
+	margin-left: 4px;	
+}
+.lo_head .lo_main ul li.customer {
+	width: 120px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	top: 20px;
+	cursor: pointer;
+}
+.lo_head .lo_main ul li.customer_active {
+	font-size: 18px;
+	border: 1px solid white;
+	font-weight: normal;
+}/*红色头部样式结束*/
+/*中部主体开始*/
+
+.yh_fen{
+	width: 100%;
+	height: 10px;
+	background-color: 
+}
+
+
+.lo_main_bg {
+	width: 100%;
+	padding: 10px 0 30px;
+	position: relative;
+	background: #F3F3F3;
+}
+.lo_main_bg .lo_menu {
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+ 	/*左边菜单栏部分开始*/
+.lo_main_bg .lo_menu .lo_left {
+	display: inline-block;
+	width: 240px;
+	position: relative;
+	vertical-align: top;
+}	
+.lo_main_bg .lo_menu .lo_left ul {
+	width: 240px;
+	position: relative;
+	text-align: center;
+	background: #FFFFFF;	
+}
+.lo_main_bg .lo_menu .lo_left li {
+	font-size: 16px;
+	border: 2px solid #E3E3E3;
+	position: relative;
+	line-height: 50px;
+}
+.lo_main_bg .lo_menu .lo_left li.account_menu {
+	top: 2px;
+}
+.lo_main_bg .lo_menu .lo_left li a {
+	color: #727272;
+}
+.lo_main_bg .lo_menu .lo_left li img {
+	position: relative;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.lo_main_bg .lo_menu .lo_left li ul{
+	border: none;
+	width: 236px;
+}
+.lo_main_bg .lo_menu .lo_left li ul li {
+	border: none;
+	color: #000000;
+	text-align: left;
+	padding-left: 98px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.lo_main_bg .lo_menu .lo_left li ul li.account_active ,.lo_main_bg .lo_menu .lo_left li ul li.account_active a {
+	background: #CB393D;
+	color: #FFFFFF;
+}
+.lo_main_bg .lo_menu .lo_left li ul li a {
+	color: #000000;
+}/*左边菜单栏部分结束*/
+   /*右部详细部分开始*/
+
+.lo_main_bg .lo_right {
+	display: inline-block;
+	width: 752px;
+	position: relative;
+	background: #FFFFFF;
+	left: 5px;
+	border-bottom: 0;
+}
+		/*订单管理开始部分开始*/
+.lo_right .order {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	background-color: rgb(243,243,243);
+    display: none;     /* js控制显示隐藏*/
+
+}
+.lo_right .order .order_title {
+	width: 740px;
+	height: 50px;
+	padding-left: 10px;
+	line-height: 50px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(40,40,40);
+	background-color: white;
+	position: relative;
+ 
+}
+.lo_right .order .main_order{
+	width: 750px;
+	float: left;
+	background-color: white;
+    position: relative;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+}
+
+.lo_right .order_teb{
+	height:42px;
+	width: 750px;
+	background-color: rgb(235,235,235);
+}
+.lo_right .order_teb .cloud{
+	width: 80px;
+	border-bottom: 2px solid rgb(153,153,153);
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	cursor: pointer;
+}
+
+ 
+.lo_right .order_teb li{
+	 float: left;
+	 width: 70px;
+	 line-height: 42px;
+	 color: #999;
+	 margin: 0 18px 0 20px;
+	 font-size: 14px;
+	 font-family: "微软雅黑";
+	 cursor: pointer;
+}
+.com_div{
+	width: 100%;
+	height: 1000px;
+	font-size: 30px;
+	text-align: center;
+}
+
+/*动态创建产品开始*/
+#firstOrder{
+	width: 750px;
+	height: 100%;
+}
+#firstOrder .first_div{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+#firstOrder .first_div .sup_div{
+	width: 100%;
+	height: 44px;
+	background-color: rgb(252,252,252);
+	border-top: 1px solid #ccc;
+}
+#firstOrder .first_div .sup_div .orderNum{
+	width: 200px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 13px;
+	float: left;
+}
+#firstOrder .first_div .sup_div .orderNum01{
+	width: 200px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 13px;
+	float: left;
+	position: relative;
+}
+#firstOrder .first_div .sup_div .seller_photo{
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+#firstOrder .first_div .sub_div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	float: left;
+	border: 1px solid #ccc;
+	border-left: 0;
+}
+#firstOrder .first_div .sub_div .sub_left_div{
+	width: 380px;
+	height: 100%;
+	float: left;
+}
+#firstOrder .first_div .sub_div .sub_left_div .detail_div{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	float: left;
+}
+#firstOrder .first_div .sub_div .sub_left_div .detail_div .detail_img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ccc;
+	margin: 10px 0px 10px 20px;
+}
+#firstOrder .first_div .sub_div .sub_left_div .detail_div .detail_title{
+	width: 170px;
+	height: 25px;
+	font-size: 14px;
+	position: absolute;
+	top: 10px;
+	left: 110px;
+}
+#firstOrder .first_div .sub_div .sub_left_div .detail_div .detail_per{
+	width: 80px;
+	height: 20px;
+	font-size: 14px;
+	position: absolute;
+	top: 35px;
+	left: 110px;
+}
+#firstOrder .first_div .sub_div .sub_left_div .detail_div .detail_standard{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	font-family: "宋体";
+	color: #9c9c9c;
+	position: absolute;
+	bottom: 5px;
+	left: 110px;
+}
+#firstOrder .first_div .sub_div .sub_left_div .detail_div .detail_price{
+	width: 60px;
+	height: 25px;
+	font-size: 14px;
+	color: #cb393d;
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+#firstOrder .first_div .sub_div .sub_left_div .detail_div .detail_number{
+	width: 40px;
+	height: 25px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+#firstOrder .first_div .sub_div .sub_middle_div{
+	width: 90px;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	position: relative;
+	float: left;
+	color: #9c9c9c;
+
+}
+#firstOrder .first_div .sub_div .sub_middle_div .customerName{
+	width: 90px;
+	height:30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	top: -20px;
+	right: 0;
+	bottom: 0;
+}
+#firstOrder .first_div .sub_div .sub_middle_div .tel{
+	width: 90px;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	right: 0;
+	bottom: 0;
+}
+#firstOrder .first_div .sub_div .money{
+	width: 90px;
+	height: 100%;
+	border-right: 1px solid #ccc;
+	border-left: 0;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	color: #cb393d;
+	float: left;
+}
+#firstOrder .first_div .sub_div .money .m_money{
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+}
+#firstOrder .first_div .sub_div .status_div{
+	width: 90px;
+	height: 100%;
+	border-right: 1px solid #ccc;
+	border-left: 0;
+	position: relative;
+	float: left;
+}
+#firstOrder .first_div .sub_div .status_div .status{
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: -30px;
+	right: 0;
+	bottom: 0;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+}
+#firstOrder .first_div .sub_div .status_div .check{
+	display: inline-block;
+	width: 90px;
+	height: 20px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 20px;
+	color: #00a2e8;
+	cursor: pointer;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 20px;
+	right: 0;
+	bottom: 0;
+}
+#firstOrder .first_div .sub_div .right_div{
+	width: 96px;
+	height: 100%;
+	font-size: 13px;
+	position: relative;
+	float: left;
+}
+#firstOrder .first_div .sub_div .right_div .pay_btn{
+	background-color: #cb393d;
+	outline: none;
+	border: 0;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	color: #fff;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: -50px;
+	right: 0px;
+}
+#firstOrder .first_div .sub_div .right_div .checked{
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	color: #00a2e8;
+	cursor: pointer;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 10px;
+	right: 0px;
+}
+#firstOrder .first_div .sub_div .right_div .cancel{
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	cursor: pointer;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 50px;
+	right: 0px;
+}
+#firstOrder .first_div .sub_div .right_div .logistics{
+	background-color: #000;
+	border-radius: 5px;
+	border: 0;
+	outline: none;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	color: #fff;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: -40px;
+	right: 0px;
+}
+#firstOrder .first_div .sub_div .right_div .confirm{
+	background-color: #cd393d;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: 40px;
+	right: 0px;
+}
+/*指定跳转部分开始*/
+.all{
+	width: 100%;
+	height: 82px;
+	float: right;
+	background-color: #f3f3f3;
+	position: relative;
+	padding-top: 40px;
+}
+#page_number{
+    width: 100%;
+    height: 40px;
+	float: right;
+	position: relative;
+}
+#page_number .tiaozhuan{
+	float: right;
+	position: relative;
+	left: -10px; 
+	margin-top:3px;
+}
+.yh_left{float: left}
+.page_input{
+	width: 53px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f3f3f3;
+}
+.addpage{
+	font-size: 13px;
+	color: #666;
+}
+.page_botton{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	position: relative;
+	left: 10px;
+	cursor: pointer;
+}
+
+.pages_div{
+	height: 40px;
+	width: 350px;
+    position: relative;
+    float: right;
+    margin-right: 25px;
+}
+.pages_div ul li{
+	float: left;
+	text-decoration: none;
+	cursor: pointer;
+	width: 42px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	border:1px solid #E3E3E3;
+	margin-right: 10px ; 
+	background-color: #fff;
+}
+.pre_page{
+	width: 70px;
+	height:40px;
+	text-align: center;
+	line-height:40px;
+	border:1px #E3E3E3 solid;
+	border-radius: 5px;
+    float: left;
+	background-color:#fff;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.next_page{
+	width: 70px;
+	height:40px;
+	text-align: center;
+	line-height:40px;
+	border:1px #E3E3E3 solid;
+	border-radius: 5px;
+    float: right;
+	background-color:#fff;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.pages_div .current_color{
+	background-color: #cb393d;
+}
+#mask {
+    width: 100%;
+    height: 100%;
+    background:#000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+#box {
+    display: none;
+    width: 500px;
+    height: 270px;
+    background-color: #fff;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin:-125px 0 0 -200px;
+    z-index: 1000;
+    text-decoration: center;
+}
+#box span {
+    position: absolute;
+    top: -10px;
+    right:10px;
+    color: #E3E3E3;	
+    font-size:50px;
+    cursor: pointer;
+}
+#box .zhanghide{
+	position: absolute;
+	left: 130px;
+	top: 80px;
+	height:80px;
+	text-align: center;
+    font-size: 25px;
+	color: #000;
+	font-family: 微软雅黑; 
+	text-align: center;
+}
+
+#box #zhangspace{
+   position:absolute; 
+   bottom: 20px;
+   left: 60px;
+   width: 150px;
+   height:40px;
+   border-radius: 5px;
+   line-height:40px;
+   text-align: center;
+   font-size: 18px;
+   cursor: pointer;
+   color: #fff;
+   font-family: 微软雅黑;
+   background-color: #CB393D;
+}
+#box #zhangspace:hover{
+	background-color:#DA0000;
+}
+#box #zhangnav{
+   position:absolute; 
+   bottom: 20px;
+   right: 60px;
+  width: 150px;
+   height:40px;
+   border-radius: 5px;
+   line-height:40px;
+   text-align: center;
+   font-size: 18px;
+   cursor: pointer;
+   color: #fff;
+   font-family: 微软雅黑;
+   background-color: gray;
+}
+#box #zhangnav:hover{
+	background-color: #DA0000;
+}
+
+/*付款跳转的页面开始*/
+ #order_pay{
+ 	width: 100%;
+ 	height: 1000px;
+ 	display: none;
+ }
+ #order_pay .order_title{
+ 	 width: 750px;
+     height: 50px;
+ }
+/*付款跳转的页面结束*/
+

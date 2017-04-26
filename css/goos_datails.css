@@ -1,0 +1,447 @@
+@charset "utf-8";
+/*红色头部样式开始*/
+.lo_head {
+  width: 100%;
+  position: relative;
+  background: #CB393D;
+}
+.lo_head .lo_main {
+  width: 1000px;
+  height: 70px;
+  position: relative;
+  margin: 0 auto;
+  line-height: 70px;
+}
+.lo_head .lo_main ul li {
+  float: left;
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.lo_head .lo_main ul li.buyer {
+  margin-left: 120px;
+}
+.lo_head .lo_main ul li.supplier {
+  margin-left: 4px; 
+}
+.lo_head .lo_main ul li.customer {
+  width: 120px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+.lo_head .lo_main ul li.customer_active {
+  font-size: 18px;
+  border: 1px solid white;
+  font-weight: normal;
+}/*红色头部样式结束*/
+/*中部主体开始*/
+
+
+.lo_main_bg {
+  width: 100%;
+  padding: 10px 0 30px;
+  position: relative;
+  background: #F3F3F3;
+}
+.lo_main_bg .lo_menu {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+}
+  /*左边菜单栏部分开始*/
+.lo_main_bg .lo_menu .lo_left {
+  display: inline-block;
+  width: 240px;
+  position: relative;
+  vertical-align: top;
+} 
+.lo_main_bg .lo_menu .lo_left ul {
+  width: 240px;
+  position: relative;
+  text-align: center;
+  background: #FFFFFF;  
+}
+.lo_main_bg .lo_menu .lo_left li {
+  font-size: 16px;
+  border: 2px solid #E3E3E3;
+  position: relative;
+  line-height: 50px;
+}
+.lo_main_bg .lo_menu .lo_left li.account_menu {
+  top: 2px;
+}
+.lo_main_bg .lo_menu .lo_left li a {
+  color: #727272;
+}
+.lo_main_bg .lo_menu .lo_left li img {
+  position: relative;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.lo_main_bg .lo_menu .lo_left li ul{
+  border: none;
+  width: 236px;
+}
+.lo_main_bg .lo_menu .lo_left li ul li {
+  border: none;
+  color: #000000;
+  text-align: left;
+  padding-left: 98px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.lo_main_bg .lo_menu .lo_left li ul li.account_active ,.lo_main_bg .lo_menu .lo_left li ul li.account_active a {
+  background: #CB393D;
+  color: #FFFFFF;
+}
+.lo_main_bg .lo_menu .lo_left li ul li a {
+  color: #000000;
+}/*左边菜单栏部分结束*/
+   /*右部详细部分开始*/
+
+.lo_main_bg .lo_right {
+  display: inline-block;
+  width: 750px;
+  position: relative;
+  /*border: 1px solid red;*/
+  background: #FFFFFF;
+  left: 5px;
+}
+    /*订单管理开始部分开始*/
+.lo_right .order {
+  width: 750px;
+  position: relative;
+  margin: 0 auto;
+    background-color: rgb(243,243,243);
+   display: none;
+}
+/*  #order_manage{
+    background-color: rgb(203,57,61);
+    color: #fff;  
+  }*/
+.lo_right .order .order_title {
+  width: 740px;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+    background-color: #fff;
+  border: 1px solid #e3e3e3;
+  font-size: 20px;
+ 
+}
+.lo_right .order .main_order{
+  width: 750px;
+  height: 1000px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+
+}
+
+
+/*订单详情页开始*/
+/*订单详情进度条*/
+  .lo_right #progressBar{
+    width: 80%;
+    height: 50px;
+    position: relative;
+     margin: 15px 0 0 79px;
+}
+.lo_right #progressBar div{
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top:50%;
+    left: 0;
+    margin-top:-5px;
+    margin-left: 2px;
+    background: rgb(151,151,151);
+}
+.lo_right #progressBar div span{
+    position: absolute;
+    left: 10px;
+    top: -1px;
+    margin-top: 1px; 
+    display: inline-block;
+    background: #cb393d;
+    height: 4px;
+    width: 32%;
+    z-index: 10;
+}
+
+.lo_right #progressBar .titse{
+    color: #cb393d;
+    border: 1px solid #cb393d;
+    z-index: 20;
+}
+.lo_right #progressBar>span{
+    position: absolute;
+    top:0;
+    margin-top: 5px;
+    width:30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border:2px solid rgb(151,151,151);
+    border-radius: 50%;
+    background: #fff;
+    margin-left: -20px;
+    color:#999;
+
+}
+.lo_right #progressBar>span:nth-child(1){
+    left: 0%;
+}
+.lo_right #progressBar>span:nth-child(2){
+    left: 25%;
+    background:#fff;
+}
+.lo_right #progressBar>span:nth-child(3){
+    left: 50%;
+    background:#fff;
+}
+.lo_right #progressBar>span:nth-child(4){
+    left: 75%;
+    background:#fff;
+}
+.lo_right #progressBar>span:nth-child(5){
+    left: 100%;
+    background:#fff;
+}
+    
+
+.lo_right #schedule{
+    width: 100%;
+    height: 100%;
+    }
+ .lo_right #schedule ul{
+         float: left;
+         height: 40px;
+         width: 125px;
+         margin: 0 3px 0 20px;
+    }
+.lo_right #schedule ul li{
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+    text-align: center;
+
+  } 
+.lo_right #schedule ul .fond{  
+   font-size: 15px;
+   color: #000;
+  } 
+   
+
+.lo_right .communication{
+    position: absolute;
+    top: 170px; 
+}
+
+.lo_right .communication ul{
+         height: 40px;
+         margin-top: 30px;
+
+    }
+.lo_right .communication ul li{
+    height: 20px;
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0 0 20px;  
+  }  
+
+.lo_right .communication ul .ziti{
+    font-size: 16px;
+    color: #000;
+  }
+
+
+/*   *{
+      margin: 0px;
+      padding: 0px;
+     }*/
+    .lo_right #Order_box{
+        width: 748px;        
+        overflow: auto;
+        margin: 0 auto;
+        margin-top:-750px;
+     }
+
+    .lo_right #Order_box .tite_box{
+      width: 703px;
+      height: 40px;
+      line-height: 40px;
+        font-size: 15px;
+      border-bottom: 1px solid #e3e3e3;
+        border-top: 1px solid #e3e3e3;
+        padding-left: 45px;
+        overflow: hidden;
+
+      }
+    .lo_right #Order_box .shanJa_img{
+      width: 20px;
+      height: 20px;
+      position: relative;
+      left: -170px; 
+        top: 4px;
+    }
+    .lo_right #Order_box .sub_box{
+          width: 100%;
+          height: 120px;
+          border-bottom: 1px solid #e3e3e3;
+          background-color: rgb(252,252,252);   
+     }
+     .lo_right #Order_box .sub_img{
+      width: 80px;
+      height: 80px;
+        border: 1px solid #e3e3e3;
+      position: relative;
+      left: 20px;
+      top: 20px;
+     }
+    .lo_right #Order_box .title_txt{
+        width: 220px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 15px;
+      position: relative;
+      top: -55px;
+      left: 110px;
+    }
+
+   .lo_right #Order_box .small_div {
+      font-size: 10px;
+      width: 60px;
+      height: 25px;
+      line-height: 25px;
+        color: #666;
+      position: relative;
+      top: -40px;
+      left: 120px;
+     }
+    .lo_right #Order_box .price_div{
+        font-size: 10px;
+      width: 60px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+        font-size: 15px;
+      position: relative;
+      top: -80px;
+      left: 410px;
+
+    } 
+    .lo_right #Order_box .number_div{
+     font-size: 10px;
+      width: 60px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+        font-size: 15px;
+      position: relative;
+      top: -105px;
+      left: 540px;
+
+    }
+    .lo_right #Order_box .price_box{
+       font-size: 10px;
+      width: 70px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+        font-size: 18px;
+        color: rgb(230,57,61);
+      position: relative;
+      top: -130px;
+      left: 660px;
+    }
+
+.lo_right #jieshuan{
+  width: 748px;
+  height: 400px;
+  position: relative;
+  bottom: 7px;
+  background-color: #fff;
+} 
+.lo_right #jieshuan ul{
+  position: relative;
+  left:60%;
+  width:40%;
+  height: 100%; 
+  line-height: 60px;
+}
+
+.lo_right #jieshuan .fapiao{
+  position: relative;
+    top: 18px;
+  left: 60px;
+  font-size: 13px;
+  color: #666;  
+}
+.lo_right #jieshuan .fapiao img{
+  position: relative;
+  top: 1px;
+    left: -10px;
+}
+.lo_right #jieshuan #xiaoji{
+  position: relative;
+    top: 8px;
+  left: 60px;
+  font-size: 15px;
+
+}
+.lo_right #jieshuan #yunfei{
+  position: relative;
+  left: 160px;
+  font-size: 15px;
+  
+}
+.lo_right #jieshuan #zhongjinen{
+  position: relative;
+  left: -20px;
+  font-size: 15px;  
+}
+.lo_right #jieshuan #zhongjinen p{
+  float: left;
+  position: relative;
+  left: 172px;
+  top: -5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(203,57,61);
+
+}
+.lo_right #jieshuan hr{
+  width: 200px;
+    color: #e3e3e3;
+    display: 0.3;
+  position: relative;
+  left: 30px;
+    top: -15px;
+}
+ .lo_right #jieshuan #butn{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(203,57,61);
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  left: 80px;
+    top: 10px;
+
+ }
+
+/*订单详情页结束*/

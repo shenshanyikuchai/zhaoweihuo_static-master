@@ -1,0 +1,388 @@
+*{/*清除默认样式*/
+  margin: 0;
+  padding: 0;
+}
+
+table{
+  padding: 0;
+  margin: 0;
+}
+
+ul ,ol , li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+input{
+	outline:none;
+}
+
+body {
+  font: "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
+  overflow-x: hidden;
+}
+
+/*导航栏开始*/
+  /*导航栏开始*/
+.nav_all {
+  position: relative;
+  height: 34px;
+  width:100%;
+  background-color:#fcfcfc;
+  overflow: hidden;
+}
+
+.nav_all .nav {
+  position: relative;
+  height: 34px;
+  width:1000px;
+  margin: 0 auto;
+}
+
+.nav_all .nav ul span {
+  font-size: 12px;
+  color: #313031;
+  float:left;
+  height: 34px;
+  line-height: 34px;
+}
+
+.nav_all .nav ul li {
+  float:left;
+  text-align: center;
+  line-height:34px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  color: #313031;
+  /*text-decoration: underline;*/
+}
+
+.nav_all .nav ol span {
+  float:right;
+  line-height: 34px;
+  font-size: 12px;
+  color: #313031;
+}
+
+.nav_all .nav ol span a {
+  text-decoration: none;
+  color: #313031;
+}
+
+.nav_all .nav ol li {
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 34px;
+}
+
+.nav_all .nav ol li a {
+  text-decoration: none;
+  color: #313031;
+}
+
+.nav_all .nav a:hover {
+  color: #e21918;
+}
+
+      /*导航栏结束*/
+      /*二级导航条开始*/
+.zhangzhengguospace{
+  width: 100%;
+  height:60px;
+  position: relative;
+  background-color: #da0000; 
+}      
+      
+.zhangzhengguospace .space{
+  width: 1000px;
+  height: 60px;
+  position: relative;
+  margin: 0px auto;
+}
+
+.zhangzhengguospace .space h3{
+  width:60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  float:left;  
+}
+
+.zhangzhengguospace .space h4{
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+}
+
+.zhangzhengguospace .space .veryical_line{
+  width: 10px;
+  font-size: 12px;
+}
+
+.zhangzhengguospace .space .procurement{
+  width: 150px;
+  height:60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+  float: left; 
+}
+
+.zhangzhengguospace .space .procurement a{
+  color: #fff;
+}
+
+.zhangzhengguospace .space .provision{
+  width: 103px;
+  height:30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+  float: left; 
+  margin-left: 10px;
+  margin-top:15px; 
+  border: 1px solid #fff;
+}
+
+.zhangzhengguospace .space .provision a{
+  color: #fff;
+}
+
+    /*二级导航条结束*/
+
+    /*中间开始*/
+.center_box{
+  width: 100%;
+  height: 1148px;
+  position: relative;
+  background-color: rgb(245,245,245);
+}
+
+/*中间部分左边开始 */ 
+.center_box .center_all{
+  width: 1000px;
+  margin: 0px auto;
+ position: relative;
+}
+
+.center_box .center_all .center_left{
+  width: 200px;
+  height: 619px;
+  position: relative;
+  left: 0px;
+  top:10px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  display: inline-block;
+}
+
+.center_box .center_all .center_left ul li{
+  height: 41px;
+  width: 190px;
+  padding-left: 10px;
+  position: relative;
+  background-color: #fff;
+}
+
+.center_left ul#cl_ul .p{
+  font-size: 16px;
+  color: gray;
+}
+
+.center_box .center_all .center_left ul#cl_ul li a .p_{
+  font-size: 15px;
+  color: #000;
+}
+
+.center_box .center_all .center_left ul li img{
+  width: 30px;
+  height: 26px;
+  position: absolute;
+  top: 8px;
+  left:40px;
+}
+
+.center_box .center_all .center_left  ul li p{
+  position: relative;
+  width: 130px;
+  padding-left: 60px;
+  line-height: 40px;
+  color: #000;
+}
+
+.center_box .center_all .center_left  ul li.underline{
+  border-bottom: 1px solid #ccc;
+}
+/*右部样式*/
+.center_box .center_all .lo_right {
+	position: relative;
+	display: inline-block;
+	top: -560px;
+	background: #FFFFFF;
+	left: 10px;
+}
+.center_box .center_all .lo_right .content {
+	width: 778px;
+	position: relative;
+	margin: 0 auto;
+	position: relative;
+}
+
+.center_box .center_all .lo_right .content .content_title {
+	/*店铺信息标题*/
+	width: 766px;
+	height: 50px;
+	padding-left: 10px;
+	line-height: 50px;
+	border: 2px solid #e3e3e3;
+	font-size: 20px;
+	font-weight: 500;
+}
+.center_box .center_all .lo_right .content .main_content{
+	/*主要信息样式*/
+	width: 100%;
+	border: 2px solid #e3e3e3;
+	margin-top: 10px;
+	height: 1020px;
+}
+
+.lo_right .content .mian_form {
+	padding-top: 40px;
+	position: absolute;
+	left: 20px;
+}
+
+.lo_right .content .mian_form ul li {
+	margin-top: 25px;
+	height: 44px;
+	position: relative;
+}
+
+.lo_right .content .mian_form ul li input {
+	/*输入框样式*/
+	width: 400px;
+	height: 38px;
+	float: right;
+	outline: none;
+	text-indent: 10px;
+	border: 1px solid #E3E3E3;
+	margin-left: 40px;
+}
+
+.lo_right .content .mian_form span {
+	/*输入框前面文字样式*/
+	display: inline-block;
+	width: 120px;
+	height: 44px;
+	line-height: 44px;
+	text-align: left;
+	float: left;
+	color: #646464;
+}
+
+.lo_right .content .mian_form span i {
+	/* *号样式 */
+	color: #f00;
+	position: relative;
+	right: 2px;
+	font-style: normal;
+}
+
+.lo_right .content .mian_form ul li .selt {
+	/*下拉框样式*/
+	position: absolute;
+	right: 0;
+	text-indent: 5px;
+}
+.lo_right .content .mian_form ul li.second_item {
+	height: 100px;
+}
+.lo_right .content .mian_form ul li.second_item input{
+	margin-top: 60px;
+	border: 1px solid #E3E3E3;
+}
+
+.lo_right .content .mian_form ul li .selt select {
+	width: 120px;
+	height: 38px;
+	margin-left: 18px;
+	border: 1px solid #E3E3E3;
+}
+
+.lo_right .content .mian_form ul .three_item {
+	height: 80px;
+}
+.lo_right .content .mian_form ul .three_item .shop_logo {
+	/*上传图片Logo*/
+	width: 400px;
+	height: 80px;
+	position: absolute;
+	right: 0;
+}
+
+.three_item .shop_logo .shop_img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #e3e3e3;
+}
+.three_item .shop_logo button {
+	position: absolute;
+	top: 0;
+	left: 90px;
+	background: #4098ec;
+	border: none;
+	width: 40px;
+	height: 20px;
+	color: #fff;
+	line-height: 20px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.three_item .shop_logo p {
+	position: absolute;
+	left: 90px;
+	top: 30px;
+	font-size: 12px;
+	color: #A9A9A9;
+}
+.lo_right .content .mian_form ul li textarea {
+	/*输入区域*/
+	width: 400px;
+	height: 80px;
+	position: absolute;
+	right: 0;
+	resize: none;
+	text-indent: 15px;
+	border: 1px solid #E3E3E3;
+}
+.lo_right .content .mian_form ul .last_li a{
+	/*确定按钮*/
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	width: 350px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	background: #010101;
+	color: #fff;
+	font-size: 18px;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}

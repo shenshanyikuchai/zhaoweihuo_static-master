@@ -1,0 +1,8 @@
+fn({"errno": 0,
+	"data":{
+	"shop":[{"order":"","name":"我是物流模板","del":"删除","emand":"修改","fee":"1","price":"3"},
+            {"order":"","name":"我可以是名字","del":"删除","emand":"修改","fee":"1","price":"3"}
+            ]
+	    }
+	   })
+	    
